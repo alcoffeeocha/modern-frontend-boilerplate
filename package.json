@@ -1,0 +1,38 @@
+{
+  "name": "modern-frontend-boilerplate",
+  "description": "Modern Front-end Boilerplate",
+  "private": false,
+  "author": "Alkahfi",
+  "version": "0.0.1",
+  "repository": "https://github.com/alcoffeeocha/modern-frontend-boilerplate.git",
+  "scripts": {
+    "dev": "brunch watch --server",
+    "build": "rimraf public && brunch build --production",
+    "pretty": "npx prettier --write \"src/**/*.pug\"",
+    "reinstall": "rimraf node_modules && npm install"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "5.2.0",
+    "core-js": "^3.25.5",
+    "jquery": "^3.6.1",
+    "postcss-scss": "^4.0.5",
+    "rimraf": "^3.0.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
+    "@prettier/plugin-pug": "^2.2.0",
+    "auto-reload-brunch": "^2",
+    "autoprefixer": "^9.0.0",
+    "babel-brunch": "^7.0.1",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "postcss-brunch": "^3.0.0",
+    "prettier": "^2.7.1",
+    "pugjs-brunch": "^2.11.3",
+    "purgecss-brunch": "^1.0.0",
+    "sass-brunch": "^3.0.1",
+    "terser-brunch": "^4.1.0"
+  }
+}
